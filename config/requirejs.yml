@@ -1,0 +1,21 @@
+paths:
+  # react library
+  'react-with-addons': 'react/react-with-addons'
+  # require director to handle routing on client-side
+  'director': 'director/build/director'
+  # REST wrapper
+  'superagent': 'superagent/superagent'
+  # require jquery library
+  'jquery': 'jquery/dist/jquery'
+  # require lodash
+  'lodash': 'lodash/dist/lodash'
+  # bootstrap library
+  'bootstrap': 'bootstrap-sprockets'
+shim:
+  'react-with-addons':
+    exports: 'React'
+  'lodash':
+    exports: '_'
+  'director':
+    exports: 'Router'
+  'bootstrap': ['jquery']
