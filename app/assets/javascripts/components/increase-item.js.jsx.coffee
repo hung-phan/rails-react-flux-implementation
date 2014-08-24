@@ -5,12 +5,12 @@ define [
 ], (React, AppActions) ->
   "use strict"
 
-  addToCart = React.createClass(
+  increaseItem = React.createClass(
     handleClick: (e) ->
-      AppActions.addItem @props.item
+      AppActions.increaseItem @props.index
 
     render: ->
-      `<button onClick={this.handleClick}>Add To Cart</button>`
+      `<button onClick={this.handleClick}>+</button>`
   )
 
-  addToCart
+  increaseItem

@@ -5,6 +5,8 @@
     "jquery": "2.1.1",
     "director": "latest",
     "superagent": "latest",
-    "react": "latest"
+    "react": "latest",
+    "es6-promise": "latest",
+    "eventemitter2": "latest"
   }
 }

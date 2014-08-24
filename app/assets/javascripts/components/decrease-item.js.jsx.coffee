@@ -5,12 +5,13 @@ define [
 ], (React, AppActions) ->
   "use strict"
 
-  removeFromCart = React.createClass(
+  decreaseItem = React.createClass(
     handleClick: (e) ->
-      AppActions.removeItem @props.index
+      AppActions.decreaseItem @props.index
 
     render: ->
       `<button onClick={this.handleClick}>-</button>`
   )
 
-  removeFromCart
+  decreaseItem
+

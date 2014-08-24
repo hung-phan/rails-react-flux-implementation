@@ -11,6 +11,10 @@ paths:
   'lodash': 'lodash/dist/lodash'
   # bootstrap library
   'bootstrap': 'bootstrap-sprockets'
+  # require es6-promise
+  'es6-promise': 'es6-promise/promise'
+  # require event emitter 2
+  'eventemitter2': 'eventemitter2/lib/eventemitter2'
 shim:
   'react-with-addons':
     exports: 'React'
