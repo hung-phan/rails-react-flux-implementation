@@ -38,7 +38,7 @@ define [
       index = _.findIndex(_cartItem, (cartItem)-> cartItem.id is item.id)
       _increaseItem(index) if index isnt -1
 
-  AppStore = $.extend(EventEmitter.prototype, {
+  AppStore = $.extend(new EventEmitter(), {
     emitChange: -> @emit(CHANGE_EVENT)
     addChangeListener: (callback)-> @on(CHANGE_EVENT, callback)
     removeChangeListener: (callback)-> @removeListener(CHANGE_EVENT, callback)
