@@ -1,28 +1,15 @@
-== README
+## What is Flux actually?
+An application layer for React. Its purpose is to make application development simple and straightforward. At this point, there are
+more documents out there about this topic (For [Flux-Overview](http://facebook.github.io/flux/docs/overview.html)).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Other approaches
+Others in the community have made a pile of `Flux` variants, each adding or removing from the general pattern.
+- Fluxxor
+- ReactFlux
+- Fynx
+- Reflux
+- Fluxy
+- Marty
+- McFly
+- DeLorean
+- and so forth.
